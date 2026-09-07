@@ -1,5 +1,5 @@
-.gate-bg{background:#080706!important;display:grid;place-items:center}
-.gate-bg:before{content:'';position:absolute;inset:-6%;background:url('assets/first-birthday.jpeg') center/cover no-repeat;filter:blur(28px) brightness(.27);transform:scale(1.08)}
-.gate-bg:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#080706e8 0%,#08070675 48%,#08070630 75%),linear-gradient(0deg,#080706 0%,transparent 46%)}
-.gate-bg img{position:relative;z-index:0;width:100%;height:100%;object-fit:contain;object-position:center;filter:sepia(.08) saturate(.86) contrast(1.03)}
-@media(max-width:760px){.gate-bg{background:#080706!important}.gate-bg:after{background:linear-gradient(0deg,#080706 0%,#08070638 54%,transparent 78%)}.gate-bg img{object-fit:cover;object-position:center top}.gate-copy{padding-bottom:4vh}}
+.gate-bg{background:#080706!important;display:block}
+.gate-bg:before{content:'';position:absolute;inset:-5%;background:url('assets/first-birthday-crop.png') center/cover no-repeat;filter:blur(32px) brightness(.22);transform:scale(1.08)}
+.gate-bg:after{content:'';position:absolute;inset:0;background:linear-gradient(90deg,#080706 0%,#080706da 32%,transparent 64%),linear-gradient(0deg,#080706c9 0%,transparent 35%)}
+.gate-bg img{position:absolute;right:5vw;top:7vh;z-index:0;width:min(53vw,760px);height:86vh;object-fit:contain;object-position:center;filter:saturate(.92) contrast(1.04);box-shadow:0 30px 90px #0009}
+@media(max-width:760px){.gate-bg:before{filter:blur(24px) brightness(.18)}.gate-bg:after{background:linear-gradient(0deg,#080706 0%,#080706e6 30%,transparent 62%)}.gate-bg img{top:0;right:0;width:100%;height:64vh;object-fit:cover;object-position:center}.gate-copy{padding-bottom:3vh}.gate h1{font-size:17vw}.gate .intro{max-width:92%}}
